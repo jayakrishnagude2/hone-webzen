@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   description: "H-One WebZen is a leading website design and development company in India offering responsive websites, e-commerce development, dashboards, AI systems, and SEO optimization services.",
   keywords: "website design company India, web development company India, e-commerce website development, SEO services India, AI web development, dashboard development, responsive website design, business website solutions",
   alternates: {
-    canonical: "https://honewebzen.com", // Replace with actual domain
+    canonical: "https://hone-webzen.onrender.com",
   },
   robots: {
     index: true,
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     description: "H-One WebZen is a leading website design and development company in India offering responsive websites, e-commerce development, dashboards, AI systems, and SEO optimization services.",
     type: "website",
     locale: "en_US",
-    url: "https://honewebzen.com",
+    url: "https://hone-webzen.onrender.com",
     siteName: "H-One WebZen",
   },
   twitter: {
@@ -62,8 +62,8 @@ export default function RootLayout({
               "@type": "Organization",
               "name": "H-One WebZen",
               "alternateName": "H1 WebZen",
-              "url": "https://honewebzen.com",
-              "logo": "https://honewebzen.com/favicon.svg",
+              "url": "https://hone-webzen.onrender.com",
+              "logo": "https://hone-webzen.onrender.com/favicon.svg",
               "sameAs": [
                 "https://www.linkedin.com/company/honewebzen", // Replace with actual links
                 "https://twitter.com/honewebzen"
@@ -86,8 +86,8 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "ProfessionalService",
               "name": "H-One WebZen",
-              "url": "https://honewebzen.com",
-              "image": "https://honewebzen.com/favicon.svg",
+              "url": "https://hone-webzen.onrender.com",
+              "image": "https://hone-webzen.onrender.com/favicon.svg",
               "description": "Professional Website Design and Development Company in India specializing in high-performance digital solutions, AI systems, and technical SEO.",
               "address": {
                 "@type": "PostalAddress",

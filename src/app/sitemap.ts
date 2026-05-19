@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://honewebzen.com'; // Replace with actual domain
+  const baseUrl = 'https://hone-webzen.onrender.com';
   
   return [
     {
