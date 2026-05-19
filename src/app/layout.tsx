@@ -42,6 +42,9 @@ export const metadata: Metadata = {
     title: "H-One WebZen | Website Design & Development Company in India",
     description: "Leading web design and development company in India. High-performance e-commerce, AI tools, and SEO optimization.",
   },
+  verification: {
+    google: "zuKmlywHaG7uogO_4tnKqY98kTKUZjQ7Z8MWSrZKfiY",
+  },
 };
 
 export default function RootLayout({
