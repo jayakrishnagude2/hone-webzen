@@ -1,15 +1,12 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React from "react";
 
 const Contact = () => {
-  const [gmailLink, setGmailLink] = useState("");
-
-  useEffect(() => {
-    const subject = encodeURIComponent(`Project Inquiry`);
-    const body = encodeURIComponent(`Let's talk about building something structurally sound.`);
-    setGmailLink(`https://mail.google.com/mail/?view=cm&fs=1&to=support.honewebzen@gmail.com&su=${subject}&body=${body}`);
-  }, []);
+  const email = "support.honewebzen@gmail.com";
+  const subject = "Project Inquiry";
+  const body = "Let's talk about building something structurally sound.";
+  const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
   return (
     <section className="relative py-32 px-6 bg-black" id="contact">
@@ -19,9 +16,7 @@ const Contact = () => {
         </h2>
         
         <a 
-          href={gmailLink}
-          target="_blank"
-          rel="noopener noreferrer"
+          href={mailtoLink}
           className="inline-block px-8 py-4 bg-white text-black text-[10px] font-bold uppercase tracking-widest hover:bg-[#E5E5E5] transition-colors"
         >
           Start a Conversation
